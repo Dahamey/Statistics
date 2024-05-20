@@ -75,9 +75,9 @@
 # 
 # * If your data is **normally distributed**, use the **parametric tests** e.g. : t-test, ANOVA or Pearson Correlation.
 # 
-# * If your data is **not normally distributed**, use the **non-parametric tests** e.g. : Mann-WhitneyU test or a Spearman Correlation.
+# * If your data is **not normally distributed**, use the **non-parametric tests** e.g. : Mann-Whitney U test or a Spearman Correlation.
 # 
-# Of coursen you still have to check if there are further assumptions for the respective test. But in general, there are less assumptions for non-parametric tests than for parametric tests.
+# Of course you still have to check if there are further assumptions for the respective test. But in general, there are less assumptions for non-parametric tests than for parametric tests.
 # 
 # Parametric tests are generally mor powerful than non-parametric tests.
 
@@ -1228,8 +1228,8 @@ chi2, p_value, degrees_of_freedom, expected_freq = chi2_contingency(obs, correct
 
 print("Expected frequencies :\n", np.round(expected_freq, 2))
 print("Degrees of freedom :", degrees_of_freedom)
-print("Test statistique : %.4f"%chi2)
-print("pèvalue : %.4f"%p_value)
+print("Test statistic : %.4f"%chi2)
+print("p-value : %.4f"%p_value)
 
 
 # Let's calculate the **critical statistic**
